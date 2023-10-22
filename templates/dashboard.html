@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Account Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+    <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+
+</head>
+<body>
+<img src="{{ url_for('static', filename='icon.png') }}" alt="Logo" class="icon">
+
+<h1>Customer Account Dashboard</h1>
+<h2>Account Name: ABC</h2>
+<h2>Account Number: 123</h2>
+
+<h3>Asset ID: <a href="#" onclick="fetchAssetState()">Motor123</a></h3>
+<h4>Asset State: <span id="asset-state">Waiting for update...</span></h4>
+</body>
+</html>

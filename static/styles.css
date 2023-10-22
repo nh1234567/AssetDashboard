@@ -1,0 +1,12 @@
+.field {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: white;
+}
+
+button.active {
+    background-color: green;
+}
+
